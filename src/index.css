@@ -1,0 +1,107 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: calc(100% - 180px);
+    };
+}
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px;
+    };
+    .home-data{
+        padding-right: 40px;
+    }
+    .home-title{
+        font-size: var(--big-font-size)
+    }
+    .home-description{
+        font-size: var(--small-font-size)
+    }
+    .state-title{
+        padding-left: 35px;
+    }
+    .stats-title::before {
+        width: 22px;
+    }
+    .skills-container{
+        row-gap: 32px;
+    }
+    .progress-circle {
+        width: 100px;
+        height: 100px;
+    }
+    .skills-title{
+        margin-top: 20px;
+    }
+    .resume-icon{
+        width: 36px;
+        height: 36px;
+        line-height: 38px;
+    }
+    .resume-item{
+        padding-left: 55px;
+    }
+    .portfolio-modal-content{
+        max-width: 600px;
+    }
+    .modal-close{
+        width: 400px;
+        height: 40px;
+    }
+    .form__input-group {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 24px;
+    }
+    .form__input-group .form__input-div:last-child {
+        grid-column: 1/-1;
+    }
+    .form__input-div{
+        margin-bottom: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 720px;
+    }
+    .home {
+        padding: 20px;
+        grid-template-columns: 5fr 7fr;
+    }
+    .home-data{
+        padding-right: 0;
+    }
+    .section {
+        padding-block: 50px;
+    }
+    .section-title{
+        margin-bottom: 40px;
+    }
+    .about-container,
+    .resume-container,
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+    .about-container{
+        row-gap: 40px
+    }
+    .subtitle-center{
+        margin-bottom: 45px
+    }
+    .skills-container{
+        grid-template-columns: repeat(3, 1fr)
+    }
+    .resume-container{
+        row-gap: 45px;
+    }
+    .resume-item:not(:last-child){
+        margin-bottom: 45px;
+    }
+    .separator {
+        margin: 65px auto 50px;
+    }
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .contact-container{
+        row-gap: 48px;
+    }
+    };
